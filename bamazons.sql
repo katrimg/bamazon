@@ -12,7 +12,6 @@ CREATE TABLE products(
     PRIMARY KEY (item_id)
 );
 
-SELECT * FROM products;
 
 INSERT INTO products(product_name, department_name, price, stock_quantity)
 VALUES ("NewAmsterdam","Beverage",19.99,200),
